@@ -52,9 +52,6 @@ def estudo_retorno(data_inicio,data_fim):
         print()
     df.to_csv('preços.csv')
 
-estudo_retorno(antes_inicio_1, antes_fim_1)
-
-
 #Criando a função que executa uma reg do volume de negociação do ativo em função do volume de 
 #negociação do Ibov, em um determinado intervalo de tempo
 def estudo_volume(data_inicio,data_fim):
